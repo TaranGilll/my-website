@@ -1,17 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js';
+import HomePage from './components/HomePage.js';
+import AboutMe from './components/AboutMe.js';
+import ContactFooter from './components/ContactFooter';
+import Projects from './components/Projects.js';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Taran's website! Currently in development!
-        </p>
-      </header>
+    <div>
+      <NavBar/>
+      <HomePage/>
+      <AboutMe/>
+      <Projects/>
+      <ContactFooter/>
     </div>
   );
-}
-
-export default App;
+};
