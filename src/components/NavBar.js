@@ -4,7 +4,7 @@ export default function NavBar() {
 
     const links = [
         { name: "Home",
-          href: "./"
+          href: "./#home"
         },
         { name: "About",
           href: "./#about"
@@ -24,7 +24,7 @@ export default function NavBar() {
                     <div class="header__logo-img-cont">
                         <img src="" alt="Taran Gill Logo" class="header__logo-img" />
                     </div>
-                    <span class="header__logo-sub">Taran Gill</span>
+                    <span class="header__logo-sub" href="#home">Taran Gill</span>
                 </div>
 
                 <div class="header__main">

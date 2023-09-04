@@ -3,7 +3,7 @@ import ContactSideBar from './ContactSideBar.js';
 
 export default function HomePage() {
     return (
-        <section class="home-hero">
+        <section class="home-hero" id="home">
             <div class="home-hero__content">
                 <h1 class="heading-primary">Hi, I'm Taran Gill</h1>
             

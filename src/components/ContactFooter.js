@@ -16,7 +16,7 @@ export default function ContactFooter() {
           icon: "https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png"
         },
         { name: "Taran Gill Email",
-          url: "",
+          url: "mailto:t26gill@uwaterloo.ca",
           icon: "https://d33wubrfki0l68.cloudfront.net/c7b1e51b8c75a239d68af3d42866666580f390ec/dcc7c/assets/png/blog-ico.png"
         }
     ];
