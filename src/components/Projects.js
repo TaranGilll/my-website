@@ -22,27 +22,27 @@ export default function Projects() {
 
 
     return (
-        <section id="projects" class="projects sec-pad">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-bg">
-                    <span class="heading-sec__main">Projects</span>
-                    <span class="heading-sec__sub">
+        <section id="projects" className="projects sec-pad">
+            <div className="main-container">
+                <h2 className="heading heading-sec heading-sec__mb-bg">
+                    <span className="heading-sec__main">Projects</span>
+                    <span className="heading-sec__sub">
                         Here you will find some of the personal and clients projects that I
                         created with each project containing its own case study
                     </span>
                 </h2>
 
-                <div class="projects__content">
+                <div className="projects__content">
                     {projects.map(element => 
-                        <div class="projects__row">
-                            <div class="projects__row-img-cont">
-                                <img src="https://d33wubrfki0l68.cloudfront.net/61fc288f39a306e3130c72643480ce015dec48ae/e3272/assets/jpeg/boreal-coffee-clone.jpeg" alt="Software Screenshot" class="projects__row-img"
+                        <div className="projects__row">
+                            <div className="projects__row-img-cont">
+                                <img src="https://d33wubrfki0l68.cloudfront.net/61fc288f39a306e3130c72643480ce015dec48ae/e3272/assets/jpeg/boreal-coffee-clone.jpeg" alt="Software Screenshot" className="projects__row-img"
                                 loading="lazy" />
                             </div>
-                            <div class="projects__row-content">
-                                <h3 class="projects__row-content-title">{element.name}</h3>
-                                <p class="projects__row-content-desc">{element.description}</p>
-                                <a class='btn btn--med btn--theme dynamicBgClr' href={element.url} target='_blank'>GitHub</a>
+                            <div className="projects__row-content">
+                                <h3 className="projects__row-content-title">{element.name}</h3>
+                                <p className="projects__row-content-desc">{element.description}</p>
+                                <a className='btn btn--med btn--theme dynamicBgClr' href={element.url} target='_blank'>GitHub</a>
                             </div>
                         </div>
                     )}
