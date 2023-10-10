@@ -3,7 +3,7 @@ import '../App.css';
 export default function AboutMe() {
 
   const skills = ["C++", "C", "Python", "Java", "Javascript", "HTML/CSS", "SQL", "Bash"];
-  const technologies = ["AWS", "React", "DynamoDB", "NoSQL", "Docker", "Linux", "Postman", "XCode", "Git"];
+  const technologies = ["AWS", "AWS Lambda", "AWS APIGateway", "AWS CloudFormation", "AWS S3", "AWS DynamoDB", "React", "NoSQL", "Docker", "Linux", "Postman", "XCode", "Git"];
 
   return (
     <section id="about" className="about sec-pad">
@@ -29,27 +29,25 @@ export default function AboutMe() {
           </div>
 
           <div className="about__content-main">
+            <h3 className='about__content-title'>Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
-                I'm a <strong>Frontend Web Developer</strong> building the
-                Front-end of Websites and Web Applications that leads to the
-                success of the overall product. Check out some of my work in the
-                <strong>Projects</strong> section.
+                From creating full-stack applications to tackling intricate coding challenges, I'm extremely <strong>passionate about technology and fostering connections</strong>.
               </p>
               <p className="about__content-details-para">
-                I also like sharing content related to the stuff that I have
-                learned over the years in <strong>Web Development</strong> so it
-                can help other people of the Dev Community. Feel free to Connect
-                or Follow me on my
-                <a rel="noreferrer" href="https://linkedin.com/in/rammcodes" target="_blank">Linkedin</a>
-                where I post useful content related to Web Development and
-                Programming
+                Currently, I'm part of a dynamic team at <strong>YuJa, a startup based in San Jose</strong>, focused on 
+                enhancing student engagement in classrooms. Working in a close-knit team of four, 
+                we're bringing a new student response software called Engage to market.
               </p>
               <p className="about__content-details-para">
-                I'm open to <strong>Job</strong> opportunities where I can
-                contribute, learn and grow. If you have a good opportunity that
-                matches my skills and experience then don't hesitate to
-                <strong>contact</strong> me.
+                As a <strong>Software Engineering</strong> student at the <strong>University of Waterloo</strong>,
+                I'm constantly exploring cutting-edge advancements in the tech world. 
+                Beyond coding, you'll find me on the soccer pitch or enjoying the great outdoors!!
+              </p>
+              <p className="about__content-details-para">
+                I'm currently seeking <strong>Summer 2024 Internships</strong> and would love to connect 
+                with fellow innovators who share my enthusiasm for developing software solutions. 
+                Feel free to reach out to me via <strong>LinkedIn or email!</strong>
               </p>
             </div>
             <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>

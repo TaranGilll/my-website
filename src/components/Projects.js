@@ -1,4 +1,7 @@
 import '../App.css';
+import ChessGame from "../icons/chess_game.jpeg";
+import AWSCrud from "../icons/aws_crud.jpeg"
+import ImageApp from "../icons/image_app.jpeg"
 
 export default function Projects() {
 
@@ -6,16 +9,19 @@ export default function Projects() {
         { name: "Image Recognition",
           description: "A cool web application that identifies objects in user-uploaded images and provides descriptions, achieving 98% accuracy! Leverages AWS Rekognition's computer vision algorithm and S3 for storage.",
           link: "GitHub",
+          img: ImageApp,
           url: "https://github.com/TaranGilll/image-recognition-app"
         },
         { name: "AWS CRUD App",
           description: "A React-based task management app, utilizing JavaScript and AWS (Lambda, API Gateway, DynamoDB, CloudFormation) for users to effectively manage their daily to-do lists.",
           link: "GitHub",
+          img: AWSCrud,
           url: "https://github.com/TaranGilll/aws-crud-app"
         },
         { name: "Chess",
           description: "Programmed a chess game with a responsive graphical user interface using Java and Java Swing. Incorporated a relational database to store the players moves and game state using MySQL and JDBC driver.",
           link: "GitHub",
+          img: ChessGame,
           url: "https://github.com/TaranGilll/chess-engine"
         }
     ];
@@ -27,8 +33,7 @@ export default function Projects() {
                 <h2 className="heading heading-sec heading-sec__mb-bg">
                     <span className="heading-sec__main">Projects</span>
                     <span className="heading-sec__sub">
-                        Here you will find some of the personal and clients projects that I
-                        created with each project containing its own case study
+                        Exploring cutting-edge technologies and frameworks is my passion, and here's a showcase of my latest projects.
                     </span>
                 </h2>
 
@@ -36,7 +41,7 @@ export default function Projects() {
                     {projects.map(element => 
                         <div className="projects__row">
                             <div className="projects__row-img-cont">
-                                <img src="https://d33wubrfki0l68.cloudfront.net/61fc288f39a306e3130c72643480ce015dec48ae/e3272/assets/jpeg/boreal-coffee-clone.jpeg" alt="Software Screenshot" className="projects__row-img"
+                                <img src={element.img} alt="Software Screenshot" className="projects__row-img"
                                 loading="lazy" />
                             </div>
                             <div className="projects__row-content">

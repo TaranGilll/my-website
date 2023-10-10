@@ -49,8 +49,8 @@ export default function ContactFooter() {
             <div className="main-footer__row main-footer__row-2">
                 <h2 className="heading heading-sm text-lt">Taran Gill</h2>
                 <p className="main-footer__short-desc">
-                    Aspiring Software Engineer!<br/>
-                    Feel free to reach out to me via linkedin or email.
+                    I love connecting with fellow innovators who share my enthusiasm for developing software solutions!
+                    Feel free to reach out to me via linkedin or email!
                 </p>
             </div>
             </div>
