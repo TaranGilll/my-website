@@ -1,7 +1,4 @@
 import '../App.css';
-import ChessGame from "../icons/chess_game.jpeg";
-import AWSCrud from "../icons/aws_crud.jpeg"
-import ImageApp from "../icons/image_app.jpeg"
 
 export default function Projects() {
 
@@ -9,19 +6,19 @@ export default function Projects() {
         { name: "Image Recognition",
           description: "A cool web application that identifies objects in user-uploaded images and provides descriptions, achieving 98% accuracy! Leverages AWS Rekognition's computer vision algorithm and S3 for storage.",
           link: "GitHub",
-          img: ImageApp,
+          img: "https://taranswebsite.s3.amazonaws.com/image_app.jpeg",
           url: "https://github.com/TaranGilll/image-recognition-app"
         },
         { name: "AWS CRUD App",
           description: "A React-based task management app, utilizing JavaScript and AWS (Lambda, API Gateway, DynamoDB, CloudFormation) for users to effectively manage their daily to-do lists.",
           link: "GitHub",
-          img: AWSCrud,
+          img: "https://taranswebsite.s3.amazonaws.com/aws_crud.jpeg",
           url: "https://github.com/TaranGilll/aws-crud-app"
         },
         { name: "Chess",
           description: "Programmed a chess game with a responsive graphical user interface using Java and Java Swing. Incorporated a relational database to store the players moves and game state using MySQL and JDBC driver.",
           link: "GitHub",
-          img: ChessGame,
+          img: "https://taranswebsite.s3.amazonaws.com/chess_game.jpeg",
           url: "https://github.com/TaranGilll/chess-engine"
         }
     ];

@@ -1,7 +1,6 @@
 import '../App.css';
 import ResumeIcon from "../icons/resume-footer.svg";
 import EmailIcon from "../icons/email-footer.svg";
-import Resume from "../icons/resume.pdf";
 
 export default function ContactFooter() {
 
@@ -22,7 +21,7 @@ export default function ContactFooter() {
           className: "main-footer__icon"
         },
         { name: "Taran Gill Resume",
-          url: Resume,
+          url: "https://taranswebsite.s3.amazonaws.com/resume.pdf",
           icon: ResumeIcon,
           className: "main-footer__icon_resume"
         } 

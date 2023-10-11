@@ -1,7 +1,6 @@
 import '../App.css';
 import ResumeIcon from "../icons/resume.svg";
 import EmailIcon from "../icons/email.svg";
-import Resume from "../icons/resume.pdf";
 
 export default function HomePage() {
 
@@ -19,7 +18,7 @@ export default function HomePage() {
           icon: EmailIcon
         },
         { name: "Taran Gill Resume",
-          url: Resume,
+          url: "https://taranswebsite.s3.amazonaws.com/resume.pdf",
           icon: ResumeIcon
         } 
     ];
