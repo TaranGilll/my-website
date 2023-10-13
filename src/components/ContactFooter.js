@@ -38,7 +38,7 @@ export default function ContactFooter() {
 
                 <div className="main-footer__social-cont">
                     {socialProfiles.map(element => 
-                        <a target="_blank" rel="noreferrer" href={element.url}>
+                        <a target="_blank" rel="noreferrer" href={element.url} title={element.name}>
                             <img className={element.className} src={element.icon} alt={element.name} />
                         </a>
                     )}
@@ -48,8 +48,8 @@ export default function ContactFooter() {
             <div className="main-footer__row main-footer__row-2">
                 <h2 className="heading heading-sm text-lt">Taran Gill</h2>
                 <p className="main-footer__short-desc">
-                    I love connecting with fellow innovators who share my enthusiasm for developing software solutions!
-                    Feel free to reach out to me via linkedin or email!
+                    I love connecting with fellow innovators who share my enthusiasm for developing software solutions.
+                    Feel free to reach out to me via LinkedIn or email!
                 </p>
             </div>
             </div>

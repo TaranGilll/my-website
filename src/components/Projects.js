@@ -30,7 +30,7 @@ export default function Projects() {
                 <h2 className="heading heading-sec heading-sec__mb-bg">
                     <span className="heading-sec__main">Projects</span>
                     <span className="heading-sec__sub">
-                        Exploring cutting-edge technologies and frameworks is my passion, and here's a showcase of my latest projects.
+                        Exploring cutting-edge technologies and frameworks is my passion, so here's a showcase of my latest projects!
                     </span>
                 </h2>
 

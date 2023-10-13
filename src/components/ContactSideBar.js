@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="home-hero__socials">
             {socialProfiles.map(element => 
                 <div className="home-hero__social" key={element.name}>
-                    <a href={element.url} className="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+                    <a href={element.url} className="home-hero__social-icon-link" rel="noreferrer" target="_blank" title={element.name}>
                       <img src={element.icon} alt={element.name} className="home-hero__social-icon" />
                     </a>
                 </div>
