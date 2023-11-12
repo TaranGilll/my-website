@@ -1,5 +1,4 @@
 import '../App.css';
-import MyIcon from "../icons/icon.jpeg";
 import React, {useState} from 'react';
 
 export default function NavBar() {
@@ -25,7 +24,7 @@ export default function NavBar() {
             <div className="header__content">
                 <div className="header__logo-container">
                     <a className="header__logo-img-cont" href="./#home">
-                        <img src={MyIcon} alt="Taran Gill Logo" className="header__logo-img" />
+                        <img src="https://taranswebsite.s3.amazonaws.com/icon.jpeg" alt="Taran Gill Logo" className="header__logo-img" />
                     </a>
                     <a className="header__logo-sub" href="./#home">Taran Gill</a>
                 </div>

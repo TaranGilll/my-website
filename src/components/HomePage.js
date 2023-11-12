@@ -1,6 +1,5 @@
 import '../App.css';
 import ContactSideBar from './ContactSideBar.js';
-import MyIcon from "../icons/icon.jpeg";
 
 export default function HomePage() {
     return (
@@ -18,7 +17,7 @@ export default function HomePage() {
                     </div>
                     
                     <div className="header__logo-home-page">
-                        <img src={MyIcon} alt="Taran Gill Logo" className="header__logo-img" />
+                        <img src="https://taranswebsite.s3.amazonaws.com/icon.jpeg" alt="Taran Gill Logo" className="header__logo-img" />
                     </div>
                 </div>
             
