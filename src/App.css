@@ -762,6 +762,27 @@ textarea {
     }
 }
 
+.homepage-image-section {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-home-page {
+    width: 30rem;
+    height: 25rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #0066ff;
+}
+
+@media only screen and (max-width: 700px) {
+    .header__logo-home-page {
+        width: 0px;
+        height: 0px;
+    }
+}
+
 .header__logo-img {
     width: 100%;
     height: 100%;

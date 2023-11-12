@@ -17,13 +17,13 @@ export default function AboutMe() {
             <h3 className="about__content-title">My Skills</h3>
             <div className="skills">
               {skills.map(element => 
-                <div className="skills__skill">{element}</div>
+                <div className="skills__skill" key={element}>{element}</div>
               )}
             </div>
             <h3 className="about__content-title" style={{marginTop: "10px"}}>My Tech Portfolio</h3>
             <div className="skills">
               {technologies.map(element => 
-                <div className="skills__skill">{element}</div>
+                <div className="skills__skill" key={element}>{element}</div>
               )}
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function ContactFooter() {
 
                 <div className="main-footer__social-cont">
                     {socialProfiles.map(element => 
-                        <a target="_blank" rel="noreferrer" href={element.url} title={element.name}>
+                        <a target="_blank" rel="noreferrer" href={element.url} title={element.name} key={element.name}>
                             <img className={element.className} src={element.icon} alt={element.name} />
                         </a>
                     )}

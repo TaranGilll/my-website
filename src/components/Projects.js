@@ -36,7 +36,7 @@ export default function Projects() {
 
                 <div className="projects__content">
                     {projects.map(element => 
-                        <div className="projects__row">
+                        <div className="projects__row" key={element.name}>
                             <div className="projects__row-img-cont">
                                 <img src={element.img} alt="Software Screenshot" className="projects__row-img"
                                 loading="lazy" />
