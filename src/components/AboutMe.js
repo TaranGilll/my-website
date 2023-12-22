@@ -3,7 +3,7 @@ import '../App.css';
 export default function AboutMe() {
 
   const skills = ["C++", "C", "Python", "Java", "Javascript", "HTML/CSS", "SQL", "YAML", "Bash"];
-  const technologies = ["AWS", "AWS Lambda", "AWS APIGateway", "AWS CloudFormation", "AWS S3", "AWS DynamoDB", "AWS Amplify", "React", "NoSQL", "Docker", "Datadog", "Linux", "Postman", "XCode", "Git"];
+  const technologies = ["AWS", "AWS DynamoDB", "TensorFlow", "Keras", "React", "NumPy", "OpenCV", "FreeRTOS", "NoSQL", "Docker", "Datadog", "Linux", "Postman", "XCode", "Git"];
 
   return (
     <section id="about" className="about sec-pad">

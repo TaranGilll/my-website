@@ -4,7 +4,7 @@ export default function Projects() {
 
     const projects = [
         { name: "Image Recognition",
-          description: "A cool web application that identifies objects in user-uploaded images and provides descriptions, achieving 98% accuracy! Leverages AWS Rekognition's computer vision algorithm and S3 for storage.",
+          description: "A cool web application that identifies objects in user-uploaded images and provides descriptions, achieving 98% accuracy! Leverages AWS Rekognition's computer vision algorithm and S3 for storage. Currently in the process of training my own image recognition model using TensorFlow!",
           link: "GitHub",
           img: "https://taranswebsite.s3.amazonaws.com/image_app.jpeg",
           url: "https://github.com/TaranGilll/image-recognition-app"
