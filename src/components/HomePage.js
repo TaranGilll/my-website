@@ -11,7 +11,7 @@ export default function HomePage() {
 
                         <div className="home-hero__info">
                             <p className="text-primary">
-                                I'm a <strong>Software Engineer</strong> interested in cloud computing, machine learning, and autonomous systems!
+                                I'm a <strong>Software Engineer</strong> interested in robotics, machine learning, and autonomous systems!
                             </p>
                         </div>
                     </div>
