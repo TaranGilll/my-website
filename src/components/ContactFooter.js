@@ -49,7 +49,7 @@ export default function ContactFooter() {
                 <h2 className="heading heading-sm text-lt">Taran Gill</h2>
                 <p className="main-footer__short-desc">
                     I love connecting with fellow innovators who share my enthusiasm for developing software solutions.
-                    Feel free to reach out to me via LinkedIn or email!
+                    Feel free to reach out via LinkedIn or email!
                 </p>
             </div>
             </div>

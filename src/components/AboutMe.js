@@ -68,16 +68,15 @@ export default function AboutMe() {
                 .
               </p>
               <p className="about__content-details-para">
-                This summer, I worked at{" "}
-                <strong>Zoox, Amazon’s autonomous robotaxi startup</strong>. At
-                Zoox, I was part of the Embedded Robot Middleware team, where I
-                architected a new logging service that reduced CPU usage and
-                prevented spikes on our EMU computer (a highly
-                memory-constrained environment). This new logging approach
-                helped resolve occurrences where our vehicle would trigger a
-                fail-safe and pull over during active missions due to CPU
-                overload. It was an amazing experience, and it was exciting to
-                work on a product so close to launching!
+                This summer, I worked as an intern at{" "}
+                <strong>Zoox, Amazon’s autonomous robotaxi startup</strong>, on
+                the Embedded Robot Middleware team. At Zoox, I architected a new
+                logging service that reduced CPU usage and prevented spikes on
+                our EMU computer (a highly memory-constrained environment). This
+                new logging approach helped resolve issues where the vehicle
+                would trigger a fail-safe and pull over during active missions
+                due to CPU overload. It was an amazing experience, and it was
+                exciting to work on a product so close to launching!
               </p>
               <p className="about__content-details-para">
                 Before Zoox, I was part of a dynamic team at{" "}
@@ -91,13 +90,14 @@ export default function AboutMe() {
                 <strong>University of Waterloo</strong>, I'm constantly
                 exploring cutting-edge advancements in the tech world. Beyond
                 coding, you'll find me on the soccer pitch or enjoying the great
-                outdoors!!
+                outdoors!
               </p>
               <p className="about__content-details-para">
-                I'm currently seeking <strong>Winter 2025 Internships</strong>{" "}
-                and would love to connect with fellow innovators who share my
-                enthusiasm for developing software solutions. Feel free to reach
-                out to me via <strong>LinkedIn or email!</strong>
+                I'm currently seeking{" "}
+                <strong>Winter/Summer 2025 Internships</strong> and would love
+                to connect with fellow innovators who share my enthusiasm for
+                developing software solutions. Feel free to reach out via{" "}
+                <strong>LinkedIn or email!</strong>
               </p>
             </div>
             <a
