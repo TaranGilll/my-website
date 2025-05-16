@@ -3,28 +3,31 @@ import "../App.css";
 export default function AboutMe() {
   const skills = [
     "C++",
-    "C",
+    "Python",
+    "Ruby",
     "Java",
     "JavaScript",
-    "Python",
-    "HTML/CSS",
     "SQL",
+    "HTML/CSS",
     "Bash",
-    "YAML",
+    "C",
   ];
   const technologies = [
     "AWS",
-    "TensorFlow",
-    "Keras",
-    "QNX",
-    "OpenCV",
-    "FreeRTOS",
-    "Linux",
+    "Rails",
     "React",
-    "NoSQL",
+    "PostgreSQL",
+    "DynamoDB",
+    "gRPC",
+    "OpenCV",
+    "OpenAI",
+    "QNX",
+    "FreeRTOS",
     "Docker",
-    "XCode",
+    "Linux",
     "Git",
+    "Datadog",
+    "Bazel",
   ];
 
   return (
@@ -68,7 +71,28 @@ export default function AboutMe() {
                 .
               </p>
               <p className="about__content-details-para">
-                This summer, I worked as an intern at{" "}
+                This past winter, I interned at <strong>GlossGenius</strong>, a
+                Series C startup in New York that helps beauty and wellness
+                businesses manage scheduling, online booking, payments, and
+                marketing through an all-in-one software platform. I led efforts
+                to replace manual workflows with OpenAI-powered automation
+                across core product areas. For example, I implemented AI-driven
+                moderation to replace manual CX reviews in key email, SMS, and
+                booking flows—cutting product misuse, reducing operational
+                overhead, and bringing moderation costs down to under $10/day,
+                all while strengthening brand trust. I also built a centralized,
+                low-latency moderation middleware that flags policy violations
+                asynchronously across major endpoints and services, scaling to
+                over 60 million daily requests without impacting API
+                performance. The experience{" "}
+                <strong>
+                  deepened my appreciation for early-stage startups
+                </strong>
+                , where even as an intern, I was able to wear many hats, move
+                fast, and learn a ton!
+              </p>
+              <p className="about__content-details-para">
+                Last summer, I worked as an intern at{" "}
                 <strong>Zoox, Amazon’s autonomous robotaxi startup</strong>, on
                 the Embedded Robot Middleware team. At Zoox, I architected a new
                 logging service that reduced CPU usage and prevented spikes on
