@@ -118,7 +118,7 @@ export default function AboutMe() {
               </p>
               <p className="about__content-details-para">
                 I'm currently seeking{" "}
-                <strong>Winter/Summer 2025 Internships</strong> and would love
+                <strong>full time positions starting in 2026</strong> and would love
                 to connect with fellow innovators who share my enthusiasm for
                 developing software solutions. Feel free to reach out via{" "}
                 <strong>LinkedIn or email!</strong>
